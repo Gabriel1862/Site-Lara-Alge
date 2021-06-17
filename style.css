@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+* {
+	font-family: 'Ubuntu', sans-serif;
+}
+body {
+	background: url(foto2.jpg);
+	background-size: 550px;
+	
+}
+.cima button {
+	background: rgb(0, 0, 0, 0.5);
+	backdrop-filter: blur(3px);
+	padding: 10px;
+	margin: 10px 5px 0px 0px;
+	border: 1px solid rgb(255, 238, 0);
+	border-radius: 7px;
+	box-shadow: 5px 5px 10px rgb(255, 238, 0);
+	outline: none;
+	cursor: pointer;
+	color: rgb(255, 238, 0);
+	font-size: 15px;
+    	font-weight: 600;
+}
+.container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: slide 600ms;
+}
+.container p {
+	color: yellow;
+	margin: 0px 0px 70px 0px;
+    	text-align: center;
+    	font-size: 80px;
+    	font-weight: 700;
+}
+.container button {
+	background: rgb(0, 0, 0, 0.5);
+	backdrop-filter: blur(3px);
+	padding: 15px;
+	margin: 5px;
+	box-shadow: 5px 5px 10px rgb(255, 238, 0);
+	border: 1px solid rgb(255, 238, 0);
+	border-radius: 7px;
+	padding: 15px;
+	outline: none;
+	cursor: pointer;
+	color: white;
+    	font-size: 17px;
+    	font-weight: 600;
+}
+
+@keyframes slide {
+	from {
+		top: 80%;
+		opacity: 0%;
+	}
+	to {
+		top: 50%;
+		opacity: 100%;
+	}
+}
